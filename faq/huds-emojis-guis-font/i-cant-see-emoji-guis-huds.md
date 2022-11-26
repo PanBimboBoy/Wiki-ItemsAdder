@@ -1,8 +1,7 @@
-# 👀 I can't see emoji, GUIs, HUDs
+# 👀 No puedo ver emoji, GUIs, HUDs
 
-If you set **Force Unicode** to **ON** because you don't like Minecraft default font you can't see emojis, custom guis and huds.\
-To fix this you have to follow this tutorial.\
-
+Si establece **Force Unicode** en **ON** porque no le gusta la fuente predeterminada de Minecraft, no podrá ver emojis, guis personalizdos y huds.\
+Para solucionar esto tienes que seguir este tutorial.
 
 {% content-ref url="../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md" %}
 [thin-font-force-unicode.md](../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md)

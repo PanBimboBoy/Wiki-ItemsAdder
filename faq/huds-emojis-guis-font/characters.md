@@ -2,21 +2,21 @@
 description: Square character
 ---
 
-# ☐ characters
+# Caracteres ☐
 
-## I see ☐ character after uninstalling Custom ESC addon
+## Veo el carácter ☐ después de desinstalar el addon Custom ESC
 
 {% hint style="info" %}
-This happens only on ItemsAdder version older than 3.3.0.
+Esto ocurre sólo en la versión de ItemsAdder anterior a la 3.3.0.
 {% endhint %}
 
 {% hint style="info" %}
-This is useful to uninstall [Custom ESC addon](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
+Esto es útil para desinstalar el [addon Custom ESC](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
 {% endhint %}
 
-You have to delete this folder lang folder: `data\resource_pack\assets\minecraft\lang`
+Tienes que borrar esta carpeta lang carpeta: `data\resource_pack\assets\minecraft\lang`
 
-Then run `/iazip` command.
+Y ejecutar el comando `/iazip`.
 
 ![](<../../.gitbook/assets/image\_(140) (1) (2).png>)
 

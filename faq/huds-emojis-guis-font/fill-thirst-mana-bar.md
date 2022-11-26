@@ -1,23 +1,23 @@
-# 💧 Thirst/mana bar
+# 💧 Barra de sed/maná
 
-## Fill them
+## Llénalos
 
-To fill the thirst bar use `/iaplayerstat write LoneDev thirst float 10`
+Para llenar la barra de sed utilice `/iaplayerstat write LoneDev thirst float 10`
 
-![](<../../.gitbook/assets/image_(2).png>)
+![](../../.gitbook/assets/image\_\(2\).png)
 
-To fill the manabar use `/iaplayerstat write LoneDev mana float 5`
+Para llenar la barra de maná utilice `/iaplayerstat write LoneDev mana float 5`
 
-![](<../../.gitbook/assets/image_(3).png>)
+![](../../.gitbook/assets/image\_\(3\).png)
 
-## Disable thirst
+## Desactivar la sed
 
-* open plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
-* set enabled: false
-* use /iareload command
+* Abra plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
+* Establezca en enabled: false
+* Use el comando /iareload
 
-## Disable mana
+## Desactivar el maná
 
-* open plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
-* set enabled: false
-* use /iareload command
+* Abra plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
+* Establezca en enabled: false
+* Use el comando /iareload

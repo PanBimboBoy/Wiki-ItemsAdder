@@ -1,24 +1,24 @@
-# 📷 Resourcepack not loading
+# 📷 El Resourcepack no carga
 
-### _Resourcepack not loading, I get an error in chat_ <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+### _El resoucepack no se carga, aparece un error en el chat_ <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
-* If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
-* Check if you have another plugin that uses **custom resourcepacks**, if you have please **disable** its **resourcepack** feature or ItemsAdder won't be able to apply the pack correctly (you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done. The pack folder of ItemsAdder is `resouce_pack`)
-* Make sure you don't have any resourcepack set in the `server.properties` file
-* **Minecraft** limits servers resourcepacks **size** to **50MB** on Minecraft **1.14** and **100MB** on **1.15+**, be sure to **compress** your **textures** and your **music** files before creating the zip file.
-* Be sure that your`url`is a **direct** download link to the zip file. If you paste the link on your browser (Firefox/Chrome) you must instantly see the download start, if you see a download page with buttons it's wrong. Resourcepack [hosting tutorials](../plugin-usage/resourcepack-hosting/).
-* Be sure to follow all [tutorial ](../plugin-usage/resourcepack-hosting/)steps
-* Be sure the port is opened if you use self-host.
-* Run `/iainfo` command and make sure the resourcepack **URL** is reachable from your browser and it directly downloads the resourcepack `.zip` file.
+* Si usted tiene **SkinsRestorer** por favor [lea aquí](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
+* Verifique si tiene otro plugin que usa **resourcepacks custom**, si lo tiene, **deshabilite** su función de **resourcepack** o ItemsAdder no podrá aplicar el pack correctamente (puede hacerlos compatibles si tiene un conocimiento mínimo sobre cómo fusionar resourcepacks manualmente, asegúrese de no reemplazar los archivos de ItemsAdder y listo. La carpeta del paquete de ItemsAdder es `resouce_pack`)
+* Asegúrese de no tener ningun resourcepack en el archivo `server.properties`
+* **Minecraft** limita el **tamaño** de los resourcepacks de los servidores a **50MB** en Minecraft **1.14** y **100MB** en **1.15+**, asegúrese de **comprimir** sus **texturas** y archivos de **música** antes de crear el archivo zip.
+* Asegúrese de que su`url`sea un enlace de descarga **directa** al archivo zip. Si pega el enlace en su navegador (Firefox/Chrome), debe ver instantáneamente el inicio de descarga , si ve una página de descarga con botones, es incorrecto. [Tutoriales de alojamiento de Resoucepack](../plugin-usage/resourcepack-hosting/).
+* Asegúrese de seguir todos los pasos del [tutorial](../plugin-usage/resourcepack-hosting/).
+* Asegúrese de que el puerto esté abierto si utiliza el self-host.
+* Ejecute el comando `/iainfo` y asegúrese de que se pueda acceder a la **URL** dek oaqyete de recursos desde su navegador y que descargue directamente el archivo `.zip` del resoucepack.
 
-### _My players can't see textures! But I've followed the whole tutorial_ <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+### ¡Mis jugadores no pueden ver las texturas! Pero he seguido todo el tutorial. <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
-There are three ways to fix this issue:
+Hay tres formas de solucionar este problema:
 
-* If your players can't see the new items just link them this simple screens to fix it! [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
-* If you still have problems **delete** the **server** from your **servers list**, add it again and then **enable resource packs**.
-* If you still have problems leave the server, go to **%appdata%/.minecraft/server-resource-packs** and **delete everything**. Then join the server again.
+* Si sus jugadores no pueden ver los nuevos items, ¡simplemente vincúlelos a estas pantallas simples para solucionarlo! [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
+* Si aún tiene problemas para **eliminar** el **servidor** de su **lista de servidores**, agréguelo nuevamente y luego **habilite** los **paquete de recursos**.
+* Si aún tiene problemas para salir del servidor, vaya a **%appdata%/.minecraft/server-resource-packs** y **elimine todo**. Luego únete al servidor de nuevo.
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (png) and **model** files (json)
+Asegúrese de no utilizar **MAYÚSCULAS**, **espacios** o **caracteres especiales** en los **nombres** de los items, **namespaces**, archivos de **textura** (png) y archivos de **modelo** (json)
 {% endhint %}
