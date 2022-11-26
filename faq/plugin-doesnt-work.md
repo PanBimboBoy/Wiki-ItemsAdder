@@ -1,20 +1,20 @@
-# ⚠ Plugin doesn't work!
+# ⚠ ¡El plugin no funciona!
 
-## Did you recently update your server/plugin or installed a new plugin?
+## ¿Actualizó recientemente su servidor/plugin o instaló un nuevo complemento?
 
-Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
+Intente eliminar el nuevo plugin, restaurar desde una copia de seguridad del servidor o degradar la versión actualizada del plugin/servidor y verifique si el problema persiste..
 
-### **Please read this if you still have problems** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+### Por favor, lea esto si todavía tiene problemas <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
-When you report something be sure to:
+Cuando informe algo, asegúrese de:
 
-* follow every single step of my tutorials and make sure to read all the wiki.&#x20;
-* test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering.
-* use the latest version of the plugin, its dependencies and server.
+* Seguir cada paso de mis tutoriales y asegúrate de leer toda la wiki.
+* Pruebe el plugin en un servidor **LIMPIO** (con solo **ItemsAdder** instalado) ya que podría ser un plugin que interfiere.
+* Use la última versión del plugin, sus dependencias y servidor.
 
-If the problem persists, and you think it's a bug, send me these information when you report the problem:
+Si el problema persiste y cree que es un error, envíeme esta información cuando informe el problema:
 
-* Exactly what you did to trigger the problem
+* Exactamente lo que hiciste para desencadenar el problema
 * Server version, use `/version` command and send me the exact text it shows (use it in console to copy and paste)
 * Plugin version
 * Tell me if you edited the .yml files of ItemsAdder
