@@ -15,16 +15,16 @@ Cuando informe algo, asegúrese de:
 Si el problema persiste y cree que es un error, envíeme esta información cuando informe el problema:
 
 * Exactamente lo que hiciste para desencadenar el problema
-* Server version, use `/version` command and send me the exact text it shows (use it in console to copy and paste)
-* Plugin version
-* Tell me if you edited the .yml files of ItemsAdder
-* Tell me if you edited the resourcepack
-* Zip ItemsAdder .yml files and send me them
-* Specify if the plugin shows error in console or in chat
-* Complete log of your server (not just a small portion of the error you see of **ItemsAdder** or I can't identify the issue)
+* Versión del servidor, use el comando `/version` y envíame el texto exacto que se muestra (úsalo en la consola para copiar y pegar)
+* Versión del plugin
+* Dime si has editado los archivos .yml de ItemsAdder
+* Dime si has editado el paquete de recursos
+* Comprima los archivos ItemsAdder .yml y envíelos
+* Especifica si el plugin muestra el error en la consola o en el chat
+* Registro completo de su servidor (no sólo una pequeña parte del error que se ve de **ItemsAdder** o no puedo identificar el problema)
 
 {% hint style="warning" %}
-Use the search button before submitting a report, people might already have reported it.
+Utiliza el botón de búsqueda antes de enviar un informe, es posible que la gente ya lo haya denunciado.
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues" %}

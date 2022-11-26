@@ -1,12 +1,10 @@
 ---
-description: >-
-  Este sitio web lo ayudará a configurar y crear items personalizados para mi
-  complemento
+description: This website helps you configuring and creating custom items for my plugin
 ---
 
-# 👋 Bienvenido
+# 👋 Welcome
 
-### 💠Enlaces rápidos
+### 💠Quick Links
 
 {% content-ref url="first-install.md" %}
 [first-install.md](first-install.md)
@@ -16,7 +14,7 @@ description: >-
 [adding-content](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
-### 🌐Redes sociales
+### 🌐Social Media
 
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
@@ -26,7 +24,7 @@ description: >-
 * [Steam Developer Page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-### 📚Información legal
+### 📚Legal Info
 
 * [Support Team Policy](legal/support-team-policy.md)
 * [Addons Creation Policy](legal/addon-creation-policy.md)

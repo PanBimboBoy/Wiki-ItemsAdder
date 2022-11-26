@@ -1,31 +1,32 @@
-# 🔍 Identificar por qué no se muestran las texturas
+# 🔍 Identify why textures are not shown
 
-### Objetivo
+### Purpose
 
-* Se muestra la textura negra y morada
-* Su modelo no carga correctamente
-* El paquete no se pudo cargar
+* black and purple texture is shown
+* your model doesn't load correctly
+* the pack failed to load
 
-## Cualquier launcher
+## Any launcher
 
-Únete al servidor y deja que el paquete se cargue.
+Join the server and let the pack load.
 
-Abra su archivo de registro del juego Minecraft, no los registros del servidor. Suele estar en `%appdata%\.minecraft\logs\latest.log` si no, por favor, busque dentro de esta carpeta`%appdata%\.minecraft\logs\`
+Open your Minecraft GAME log file, **not server** logs.\
+It is usually in `%appdata%\.minecraft\logs\latest.log` if not please search inside this folder `%appdata%\.minecraft\logs\`
 
-Puede ver claramente qué archivos no se han cargado y por qué, los errores son claros en la mayoría de los casos.
+You can clearly see which files failed to load and why, the errors are clear in most of the cases.
 
-## Launcher oficial
+## Original launcher
 
-### Activa el registro de minecraft
+### Enable output log
 
 ![](../.gitbook/assets/image\_\(135\).png)
 
-### Únase al servidor y lea el registro
+### Join the server and read the log
 
 ![](<../.gitbook/assets/json\_errors (1).png>)
 
-### Averigüe qué archivo está roto
+### Find out which file is broken
 
-Puede ver claramente qué archivos no se cargaron y porqué, los errores son claros en la mayoría de los casos.\
-En este ejemplo, tenía dos archivos rotos `gem_vending_machine` y `whitebathroom_sink`.\
-El error me dice que los archivos JSON están rotos, probablemente tienen caracteres malos dentro o están dañados.
+You can clearly see which files failed to load and why, the errors are clear in most of the cases.\
+In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`.\
+The error tells me that the JSON files are broken, they probably have bad characters inside or they are corrupted.

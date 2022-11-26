@@ -1,78 +1,76 @@
 ---
-description: Cómo instalar el plugin
+description: How to install the plugin
 ---
 
-# ⚙ Primera instalación
+# ⚙ First install
 
 {% hint style="info" %}
-**Deberas seguir** esta primera configuración **en** tu **servidor de pruebas** en tu PC para **evitar errores** y demasiados reinicios... a los jugadores no les gusta cuando el servidor está desconectado.
-
-Puedes subir los archivos a ttu servidor real después de haber terminado aquí.\
-
+**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when the server is offline.\
+You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-**Asegúrese** de que todos sus plugins y el software del servidor están actualizados.
+**Make sure** that all of your plugins and server software are up to date.
 {% endhint %}
 
-## Paso 1 - Instalación del plugin y las API's
+## Step 1 - Installing the plugin and APIs
 
-* Instalar [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)
-* Instalar [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (opcional) Instalar **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
-* Arrastre el archivo `ItemsAdder.jar` dentro de su carpeta de plugins
-* Inicie el servidor
-* Deje que ItemsAdder termine de cargar **todo los archivos**
+* install [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)
+* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
+* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
+* put `ItemsAdder.jar` file inside your plugins folder
+* start the server
+* let ItemsAdder finish loading **everything**
 
-El primer paso está hecho.\
-Ahora debes completar el paso 2 para configurar el resourcepack (no te preocupes, no es muy difícil).
+First step is done.\
+Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
 
-## Paso 2 - Primera instalación del Resourcepack
+## Step 2 - Resourcepack first installation
 
 {% hint style="warning" %}
-Este paso es importante, el plugin  <mark style="color:red;">**NO FUNCIONARÁ,**</mark> si no completa este paso.
+This step is important, the plugin <mark style="color:red;">**WILL NOT WORK,**</mark> if you won't complete this step.
 {% endhint %}
 
-Antes de usar el plugin tienes que decirdir el método de alojamiento del resourcepack.\
-Haga click aquí para decidir un método de alojamiento para el resourcepack (el mejor método: `self-host`).
+Before using the plugin you have to decide the resourcepack hosting method. \
+Click down here to decide an hosting method for the resourcepack (best method: `self-host`).
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Paso 3 - (opcional) Agrege contenido personalizado oficial de ItemsAdder.
+## Step 3 - (optional) Add official ItemsAdder custom content
 
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
-**ItemsAdder** viene con una gran cantidad de contenido personalizado ya creado para usted.\
-No se incluye automáticamente en el complemento descargado por que es posible que algunas personas no deseen que todos items/caracter\[isticas se agreguen automáticamente en su servidor.
+**ItemsAdder** comes with a lot of custom content already created for you.\
+It's not automatically included in the downloaded plugin because some people might not want every item/feature automatically added into their server.
 
-### Paquete predeterminado
+### Default pack
 
 ![](<.gitbook/assets/image (47).png>)
 
-* Descarga la última versión del DefaultPack: [DESCARGAR](https://github.com/ItemsAdder/DefaultPack/releases/latest)
-* Extraiga el contenido en la carpeta `ItemAdder` y sobreescriba los archivos si se le solicita
-* Ejecute el comando `/iazip` (y siga su método de [método de hospedaje](plugin-usage/resourcepack-hosting/) si no está utilizando el **self-host**).
+* Download the latest version of the **DefaultPack**: [DOWNLOAD](https://github.com/ItemsAdder/DefaultPack/releases/latest)
+* Extract the content into the `ItemAdder` folder and overwrite the files if asked
+* Run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
 
-### Otros packs (opcional)
+### Other pack (optional)
 
 ![](<.gitbook/assets/image (50).png>)
 
-* Si lo desea, puede descargar el **OtherPacks** que agregan aún más contenido: [DESCARGAR](https://github.com/ItemsAdder/OtherPacks/releases/latest)
-* Extraiga el contenido en la carpeta `ItemsAdder` y sobrescriba los archivos si se le solicita.
-* Ejecute el comando `/iazip` (y siga su método de [método de hospedaje](plugin-usage/resourcepack-hosting/) si no está utilizando el **self-host**).
+* if you want you can download the **OtherPacks** which adds even more content: [DOWNLOAD](https://github.com/ItemsAdder/OtherPacks/releases/latest)
+* extract the content into the `ItemAdder` folder and overwrite the files if asked
+* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
 
-Si está en 1.17 o inferior, debe cambiar la generación de minerales:
+If you're on 1.17 or lower you have to change the ores generation:
 
-* Abra estos archivos y establezca `enabled: true`.
+* Open these files and set `enabled: true`.
   * `contents\iaalchemy\configs\worlds_populators_old.yml`
   * `contents\iasurvival\ores\configs\worlds_populators_old.yml`
-* Abra estos archivos y establezca `enabled: false`.
+* Open these files and set `enabled: false`.
   * `contents\iaalchemy\configs\worlds_populators_1_18.yml`
   * `contents\iasurvival\ores\configs\worlds_populators_1_18.yml`
 
-### Eliminar items predeterminados
+### Removing default items
 
 {% content-ref url="faq/removing-default-stuff/" %}
 [removing-default-stuff](faq/removing-default-stuff/)

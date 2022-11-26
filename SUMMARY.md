@@ -6,7 +6,7 @@
 * [❓ Preguntas frecuentes](faq/README.md)
   * [🔍 Identificar por qué no se muestran las texturas](faq/identify-why-textures-are-not-shown.md)
   * [⚠ ¡El plugin no funciona!](faq/plugin-doesnt-work.md)
-  * [I see crisp textures far away!](faq/i-see-crisp-textures-far-away.md)
+  * [¡Veo texturas nítidas a lo lejos!](faq/i-see-crisp-textures-far-away.md)
   * [📷 Resourcepack not loading](faq/resourcepack-not-loading.md)
   * [💧 HUDs, emojis, GUIs, Font](faq/huds-emojis-guis-font/README.md)
     * [💧 Thirst/mana bar](faq/huds-emojis-guis-font/fill-thirst-mana-bar.md)
